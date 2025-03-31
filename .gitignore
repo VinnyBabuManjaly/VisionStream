@@ -1,0 +1,55 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+
+# Ignore virtual environment folders
+venv/
+.env
+.venv/
+env/
+*.env
+
+# Ignore logs and temp files
+*.log
+logs/
+*.sqlite3
+*.db
+*.pid
+
+# Ignore environment-specific settings
+.env
+config.json
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore Docker files that should not be committed
+*.dockerfile
+docker-compose.override.yml
+
+# Ignore test coverage and reports
+.coverage
+htmlcov/
+*.cover
+*.pycoverage
+nosetests.xml
+pytest_cache/
+junitxml.xml
+
+# Ignore Flask & Python cache files
+instance/
+.cache/
+dist/
+build/
+*.egg-info/
+
+# Ignore GitHub workflows cache
+.github/workflows/*.log
+
+# Ignore pre-commit hooks cache
+.pre-commit-config.yaml.~
