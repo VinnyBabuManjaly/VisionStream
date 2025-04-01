@@ -25,7 +25,6 @@ def create_app():
         level=app.config.get("LOGGING_LEVEL", "INFO"),  # Set logging level
         format="%(asctime)s - %(levelname)s - %(message)s",  # Log format
     )
-    global app_logger
     app.logger.info("Application initialized successfully")
 
     cache.init_app(app)  # Initialize cache with Flask
